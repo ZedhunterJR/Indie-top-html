@@ -1,25 +1,10 @@
 Find index.html and open it for main page
 Thank you!
-
-listed:
-skul
-tiny rogue
-dungreed
-demoncrawl
-shotgunking
-vampiresurvivor
-luckbealandlord
-peglin
-deadcell
-babaisyou
-polybridge
-canofwormhole
-patrickparabox
-thewitness
-cosmicexpress
-inscrytion
-caseofthegoldenidol
-thereisnogame
-terranil
-card shark
-backpack hero
+Front page:
+![Front page](front.png)
+Scroll down:
+![Front page](front_1.png)
+Detail page:
+![Detail](side.png)
+Alt browser resolution:
+![Alt res](alt.png)
