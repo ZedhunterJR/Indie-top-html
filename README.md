@@ -1,10 +1,11 @@
-Find index.html and open it for main page
-Thank you!
-Front page:
+#H2 Find index.html and open it for main page
+#H2 Thank you!
+
+#H1 Front page:
 ![Front page](front.png)
-Scroll down:
+#H1 Scroll down:
 ![Front page](front_1.png)
-Detail page:
+#H1 Detail page:
 ![Detail](side.png)
-Alt browser resolution:
+#H1 Alt browser resolution:
 ![Alt res](alt.png)
