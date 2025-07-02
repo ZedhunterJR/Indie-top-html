@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Indie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sub-style.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="index.html">TOP INDIE</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#portfolio">Browse</a></li>
+          <li><a style="cursor:pointer" onclick="randomGame();window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); setTimeout(reloadPage, 1)">Wild Card</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="banner" style="background-image: url(img/skul.jpg)">
+      <div class="content">
+        <div class="text">
+          <h1 id = "title"></h1>
+          <p id="shortdescription"></p>
+        </div>
+        <a href="#sub-detail">Detail</a>
+      </div>
+    </section>
+
+    <div class="detail-page" id = "sub-detail">
+        <h2 id="subtitle"></h2>
+        <p id ="description"></p>
+        <br>
+        <p id="link"></p>
+    </div>
+
+    <div class="container">
+      <h2>In-game screenshot</h2>
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="img/skul-0.png" style="width:100%" id="big_slide0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="img/skul-1.png" style="width:100%" id="big_slide1">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="img/skul-2.png" style="width:100%" id="big_slide2">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="img/skul-3.png" style="width:100%" id="big_slide3">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="img/skul-4.png" style="width:100%" id="big_slide4">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="img/skul-5.png" style="width:100%" id="big_slide5">
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="img/skul-0.png" style="width:100%" onclick="currentSlide(1)" id="slide0">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/skul-1.png" style="width:100%" onclick="currentSlide(2)" id="slide1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/skul-2.png" style="width:100%" onclick="currentSlide(3)" id="slide2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/skul-3.png" style="width:100%" onclick="currentSlide(4)" id="slide3">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/skul-4.png" style="width:100%" onclick="currentSlide(5)" id="slide4">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="img/skul-5.png" style="width:100%" onclick="currentSlide(6)" id="slide5">
+        </div>
+      </div>
+    </div>
+    <div class ="detail-page">
+        <h1> <br>System requirement</h1>
+        <p id = "spec"></p>
+    </div>
+    <section class="services">
+      <h2>Related to this game</h2>
+      <p>Click on each game to see more details</p>
+      <ul class="cards">
+        <li class="card">
+          <img src = "" id="icon_0"></img>
+          <!-- this is dumb as shit -->
+          <a href="" id="link_0" onclick="window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); setTimeout(reloadPage, 1)"><h3 id="related_title_0"></h3></a>
+          <p id="related_description_0"></p>
+        </li>
+        <li class="card">
+          <img src = "" id="icon_1"></img>
+          <a href="" id = "link_1" onclick="window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); setTimeout(reloadPage, 1)"><h3 id="related_title_1"></h3></a>
+          <p id="related_description_1"></p>
+        </li>
+        <li class="card">
+          <img src = ""id="icon_2"></img>
+          <a href="" id = "link_2" onclick="window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); setTimeout(reloadPage, 1)"><h3 id="related_title_2"></h3></a>
+          <p id="related_description_2"></p>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2023 All Rights Reserved</span>
+        <span class="link">
+            <a href="index.html">Home</a>
+            <a href="index.html#contact">Contact</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+
+  <script src="img-slide.js"></script>
+  <script src = "randomF.js"></script>
+</html>
