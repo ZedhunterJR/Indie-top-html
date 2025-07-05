@@ -23,7 +23,7 @@ Designed for user to browse available catalog of game, view details, and explore
   <img src="front_1.png" width="600"/>
 </p>
 
-<p align="center"><b>📄 Course Detail Page</b></p>
+<p align="center"><b>📄 Game Detail Page</b></p>
 <p align="center">
   <img src="side.png" width="600"/>
 </p>
